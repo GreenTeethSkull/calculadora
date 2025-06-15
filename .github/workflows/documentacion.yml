@@ -6,6 +6,16 @@ on:
       - main
 
 jobs:
+
+  crear-saludo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello World Action
+        uses: actions/hello-world-js-action-by-greenteethskull@v1.1
+        with:
+          who-to-greet: Angel Rios
+
   compila:
     runs-on: ubuntu-latest
 
