@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Hello World Action
-        uses: GreenTeethSkull/hello-world-js-action@v1.1
+        uses: GreenTeethSkull/hello-world-js-action@v1.2
         with:
           who-to-greet: Angel Rios
 
